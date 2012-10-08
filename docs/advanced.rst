@@ -174,3 +174,9 @@ This sample generator that returns six random digits::
         for i in range(6):
             ret += str(random.randint(0,9))
         return ret, ret
+
+
+Testing support
++++++++++++++++
+
+Similarly to the django-recaptcha package, it is possible to bypass CAPTCHA validation when DEBUG is set to True in the project settings. To do this, provide 'PASSED' as CAPTCHA value.
