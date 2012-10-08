@@ -179,4 +179,4 @@ This sample generator that returns six random digits::
 Testing support
 +++++++++++++++
 
-Similarly to the django-recaptcha package, it is possible to bypass CAPTCHA validation when DEBUG is set to True in the project settings. To do this, provide 'PASSED' as CAPTCHA value.
+For testing purposes, it is possible to bypass CAPTCHA validation when ``DEBUG`` is set to ``True`` in the project settings. To do this, use ``'PASSED'`` as value of the CAPTCHA field.
